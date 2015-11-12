@@ -9,3 +9,9 @@ def fizzbizz(number) :
 		return "bizz"
 	else :
 		return number
+
+# testing for numbers from 1 to 50
+
+for i in range(1,51):
+	output=fizzbizz(i)
+	print output
