@@ -66,5 +66,4 @@ def play_hangman(selec_word):
 word_list = get_wordlist()
 secret = select_word(word_list)
 result = play_hangman(secret)
-print secret
 print result
