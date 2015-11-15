@@ -2,11 +2,11 @@
 
 live()
 	Input : number[<number>], matrix[<number>][<number>]
-	Output : NIL
+	Output : matrix[<number>][<number>]
 	Resp : current cell is lived for next generation
 die()
 	Input : number[<number>], matrix[<number>][<number>]
-	Output : NIL
+	Output : matrix[<number>][<number>]
 	Resp :  current cell is dead for next generation
 
 overPopulation()
@@ -44,6 +44,19 @@ getMatrix()
 	Input : NIL
 	Output : Matrix of size SIZE
 	Resp : Get a matrix space for the region of life
+
+Following is the pseudo code
+
+main()
+	matrix = get_matrix()
+	neighbour_list = getNeighbours()
+	while(True)
+		for all cells in the matrix considering neighbour_list
+		    if overPopualation() or underPopulation()
+		       die()
+		    if isStable() or reproduce()
+		       live()
+		    	
 
 Resp a.k.a Responsibility
 
