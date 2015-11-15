@@ -1,11 +1,11 @@
 ---------------------------Design---------------------------
 
 live()
-	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
+	Input : number[<number>], matrix[<number>][<number>]
 	Output : NIL
 	Resp : current cell is lived for next generation
 die()
-	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
+	Input : number[<number>], matrix[<number>][<number>]
 	Output : NIL
 	Resp :  current cell is dead for next generation
 
@@ -31,7 +31,7 @@ isStable()
 	Resp : check if current population is stable, if yes then 1 else 0
 
 getNeighbours()
-	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
+	Input : number[<number>], matrix[<number>][<number>]
 	Output : neighbour_list[<list>]
 	Resp : Get the list of all neighbours
 
@@ -49,6 +49,7 @@ Resp a.k.a Responsibility
 
 Restriction:
 	We restrict the region of life to a square matrix of size SIZE
+	Note : From number we can extract row and column
 
 Assumptions:	 
 	Assume, Matrix[row][0] and Matrix[row][column] as neibhours and 
