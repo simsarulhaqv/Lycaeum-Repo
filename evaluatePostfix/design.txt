@@ -1,0 +1,43 @@
+---------------------------Design---------------------------
+
+get_string()
+	Input : NULL
+	Output : String
+	Resp : Accept a string from the user
+
+compute()
+	Input : Number1, Number2, Operator [Note: Operator is <character>]
+	Output : Number
+	Resp : Compute Number1 <operator> Number2 value
+
+is_operand()
+	Input : character
+	output : Boolean
+	Resp : return True if character is an operator else False
+
+string_to_list()      
+	Input : String
+	Output : List
+	Resp : Convert string to its corresponding list
+
+push()
+	Input : <array>[stack], <number>[stack_count], <number>
+	Output : <array>[stack], <number>[stack_count]
+	Resp : Insert number to stack
+
+pop()
+	Input : <array>[stack], <number>[stack_count]
+	Output : <array>[stack], <number>[stack_count], <number>
+	Resp : Pop out the top most element of stack
+
+
+Resp a.k.a Responsibility
+
+Restriction:
+	Number : 0-9
+	operator : +,-,*,/
+
+Assumptions:	 
+	Illustrated by the following example.
+	eg : expression '12-' is computed as '2-1' not '1-2' 
+------------------------------------------------------------
