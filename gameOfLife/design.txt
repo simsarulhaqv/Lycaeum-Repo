@@ -40,7 +40,10 @@ getCell()
 	Output : row[<number>], coloum[<number>]
 	Resp : return a cell from the matrix 
 
-
+getMatrix()
+	Input : NIL
+	Output : Matrix of size SIZE
+	Resp : Get a matrix space for the region of life
 
 Resp a.k.a Responsibility
 
