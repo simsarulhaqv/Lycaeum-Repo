@@ -31,7 +31,7 @@ isStable()
 	Resp : check if current population is stable, if yes then 1 else 0
 
 getNeighbours()
-	Input : row[<number>], coloum[<number>
+	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
 	Output : neighbour_list[<list>]
 	Resp : Get the list of all neighbours
 
