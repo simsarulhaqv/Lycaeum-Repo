@@ -1,0 +1,62 @@
+---------------------------Design---------------------------
+
+live()
+	Input : row[<number>], coloum[<number>]
+	Output : NIL
+	Resp : current cell is lived for next generation
+die()
+	Input : row[<number>], coloum[<number>]
+	Output : NIL
+	Resp :  current cell is dead for next generation
+
+overPopulation()
+	Input : neighbour_list[<list>]
+	Output : Boolean
+	Resp : check if over populated, if yes then 1 else 0
+
+
+underPopulation()
+	Input : neighbour_list[<list>]
+	Output : Boolean
+	Resp : check if under populated, if yes then 1 else 0
+
+reproduce()
+	Input : neighbour_list[<list>]
+	Output : Boolean
+	Resp : check if current population reproduce, if yes then 1 else 0
+
+isStable()
+	Input : neighbour_list[<list>]
+	Output : Boolean
+	Resp : check if current population is stable, if yes then 1 else 0
+
+getNeighbours()
+	Input : row[<number>], coloum[<number>
+	Output : neighbour_list[<list>]
+	Resp : Get the list of all neighbours
+
+getCell()
+	Input : count[<number>], matrix[<number>][<number>]
+	Output : row[<number>], coloum[<number>] 
+
+
+
+Resp a.k.a Responsibility
+
+Restriction:
+	We restrict the region of life to a square matrix of size SIZE
+
+Assumptions:	 
+	Assume, Matrix[row][0] and Matrix[row][column] as neibhours and 
+	Matrix[0][column] and Matrix[row][column] as neibhours
+	along with other intuitive neighbours.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
