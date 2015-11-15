@@ -13,7 +13,7 @@ def compute(number1, number2, operation) :
         result = number1 / number2
     return result
 
-def is_operand(character) :
+def is_operator(character) :
     if character  in ['+','-','*','/'] :
         return True
     else :
@@ -39,7 +39,7 @@ def main() :
     stack = [0 for i in range(len(string))]
     stack_count = 0
     for character in str_list :
-        if is_operand(character) :
+        if is_operator(character) :
             stack,stack_count,number1 = pop(stack,stack_count)
             stack,stack_count,number2 = pop(stack,stack_count)
             result = compute(number1, number2, character)
