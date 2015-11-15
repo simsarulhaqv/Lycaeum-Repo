@@ -1,11 +1,11 @@
 ---------------------------Design---------------------------
 
 live()
-	Input : row[<number>], coloum[<number>]
+	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
 	Output : NIL
 	Resp : current cell is lived for next generation
 die()
-	Input : row[<number>], coloum[<number>]
+	Input : row[<number>], coloum[<number>], matrix[<number>][<number>]
 	Output : NIL
 	Resp :  current cell is dead for next generation
 
@@ -37,7 +37,8 @@ getNeighbours()
 
 getCell()
 	Input : count[<number>], matrix[<number>][<number>]
-	Output : row[<number>], coloum[<number>] 
+	Output : row[<number>], coloum[<number>]
+	Resp : return a cell from the matrix 
 
 
 
