@@ -1,0 +1,31 @@
+body {
+	font-size:10px;
+}
+
+.header {
+	padding-top:1em;
+	background-color:green;
+	color:yellow;
+	margin-bottom:4em;
+	font-size:3em;
+}
+
+.movie {
+	float:left;
+	//display:inline;	 
+	margin:1em;
+}
+
+img{
+	width:30em;
+	height:30em;
+}
+
+.SearchBox {
+	padding-left:35em;
+}
+
+.side-menu {
+	padding-left:100em;
+	padding-top:5em;
+}
