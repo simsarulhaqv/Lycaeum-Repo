@@ -36,7 +36,7 @@ def pop(stack, stack_size) :
 def main() :
     string = get_string()
     str_list = string_to_list(string)
-    stack = [0 for i in range(len(string))]
+    stack = [0 for i in range(len(str_list))]
     stack_count = 0
     for character in str_list :
         if is_operator(character) :
